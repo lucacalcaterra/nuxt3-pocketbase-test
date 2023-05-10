@@ -34,7 +34,7 @@ async function login() {
 </script>
 
 <template>
-    <div class="justify-content-center align-content-center display: flex flex-wrap fill-height mt-8">
+    <div class="card m-auto  flex flex-wrap justify-content-center gap-3">
         <InputText v-model="email" placeholder="email" />
         <InputText v-model="password" placeholder="password" />
     </div>
