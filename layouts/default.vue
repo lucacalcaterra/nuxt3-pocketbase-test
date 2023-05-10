@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-const appConfig = useAppConfig()
-const pb = usePocketbase()
-onMounted(() => {
-    const url = window.location.host
-    if (!url.includes('localhost')) {
-        pb.baseUrl = "https://" + url
-    }
-})
+// const appConfig = useAppConfig()
+// const pb = usePocketbase()
+// onMounted(() => {
+//     const url = window.location.host
+//     if (!url.includes('localhost')) {
+//         pb.baseUrl = "https://" + url
+//     }
+// })
 </script>
 
 <template>
